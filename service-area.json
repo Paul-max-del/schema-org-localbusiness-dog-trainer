@@ -1,0 +1,46 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "serviceType": "Reactive dog training",
+  "provider": {
+    "@id": "https://www.example.com/#localbusiness"
+  },
+  "areaServed": [
+    { "@type": "AdministrativeArea", "name": "Greater London" },
+    { "@type": "AdministrativeArea", "name": "Surrey" },
+    { "@type": "AdministrativeArea", "name": "Kent" },
+    { "@type": "AdministrativeArea", "name": "Sussex" },
+    { "@type": "AdministrativeArea", "name": "Berkshire" },
+    { "@type": "AdministrativeArea", "name": "Hampshire" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Dog training programmes",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "60-day in-person programme",
+          "description": "One-to-one reactive dog training across South London, Surrey, Kent, Sussex, Berkshire and Hampshire. Money-back guarantee."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Residential dog training programme",
+          "description": "Your dog stays with us. UK-wide intake. Money-back guarantee."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "5-day residential boot camp",
+          "description": "Short-stay residential for focused behaviour work."
+        }
+      }
+    ]
+  }
+}

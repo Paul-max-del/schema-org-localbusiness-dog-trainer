@@ -1,0 +1,63 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://www.looseleadclub.com/#localbusiness",
+      "name": "Loose Lead Club",
+      "description": "Specialist reactive dog training and behaviour rehabilitation. 60-day in-person and residential programmes across the UK. Money-back guarantee.",
+      "url": "https://www.looseleadclub.com",
+      "image": "https://www.looseleadclub.com/og.jpg",
+      "telephone": "+44-20-0000-0000",
+      "email": "hello@looseleadclub.com",
+      "priceRange": "£££",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Croydon",
+        "addressRegion": "Greater London",
+        "addressCountry": "GB"
+      },
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "Greater London" },
+        { "@type": "AdministrativeArea", "name": "Surrey" },
+        { "@type": "AdministrativeArea", "name": "Kent" },
+        { "@type": "AdministrativeArea", "name": "Sussex" },
+        { "@type": "AdministrativeArea", "name": "Berkshire" },
+        { "@type": "AdministrativeArea", "name": "Hampshire" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Dog training programmes",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "60-day in-person programme",
+              "description": "One-to-one reactive dog training across London, Surrey, Kent, Sussex, Berkshire and Hampshire. Money-back guarantee."
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Residential dog training",
+              "description": "Your dog stays with us. UK-wide intake. Money-back guarantee."
+            }
+          }
+        ]
+      },
+      "sameAs": [
+        "https://www.instagram.com/looseleadclub",
+        "https://www.youtube.com/@looseleadclub"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.looseleadclub.com/#website",
+      "url": "https://www.looseleadclub.com",
+      "name": "Loose Lead Club",
+      "publisher": { "@id": "https://www.looseleadclub.com/#localbusiness" }
+    }
+  ]
+}

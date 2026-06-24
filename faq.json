@@ -1,0 +1,38 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How long does it take to fix dog reactivity?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most owners see meaningful change inside the first few weeks of a structured programme. A full transformation typically takes 60 days of consistent in-person work, or 2 to 4 weeks of residential training depending on severity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a reactive dog and an aggressive dog?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Reactivity is an over-the-top response to a trigger like another dog or a stranger. Most reactive dogs are fearful or frustrated, not genuinely aggressive. True aggression is rarer and needs careful behavioural assessment."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer residential dog training?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Dogs come from across the UK. The residential programme is the right fit for owners who are time-poor, dogs with severe reactivity, or households where day-to-day management has broken down."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are you a force-free trainer?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. We are results-focused. We use whatever ethical, evidence-based method gets the right outcome for the dog in front of us. Same owner, same dog before and after, but a different way of living together."
+      }
+    }
+  ]
+}
