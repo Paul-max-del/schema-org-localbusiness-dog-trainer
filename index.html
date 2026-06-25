@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Schema.org LocalBusiness JSON-LD Templates for Dog Trainers | Loose Lead Club</title>
+<meta name="description" content="Free paste-ready Schema.org LocalBusiness, Service, FAQ, AggregateRating, BreadcrumbList and Article JSON-LD templates for UK dog trainers and behaviourists.">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  :root { color-scheme: light; }
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; max-width: 880px; margin: 2rem auto; padding: 0 1rem; line-height: 1.55; color: #1a1a1a; }
+  h1 { font-size: 1.7rem; margin-bottom: 0.4rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.4rem; }
+  h3 { font-size: 1rem; margin-top: 1.4rem; }
+  p { margin: 0.6rem 0; }
+  a { color: #0a58ca; }
+  code { background: #f1f1f1; padding: 0.1rem 0.35rem; border-radius: 4px; font-size: 0.9em; }
+  ul { padding-left: 1.2rem; }
+  .template { margin-top: 1.2rem; border: 1px solid #e0e0e0; border-radius: 8px; overflow: hidden; }
+  .template header { background: #f7f7f7; padding: 0.7rem 1rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap; }
+  .template header strong { font-size: 1rem; }
+  .template header small { color: #555; }
+  .template pre { margin: 0; padding: 1rem; background: #fafafa; overflow-x: auto; font-size: 0.82rem; line-height: 1.5; }
+  .copy { background: #0a58ca; color: #fff; border: none; padding: 0.45rem 0.9rem; border-radius: 6px; font-size: 0.85rem; cursor: pointer; }
+  .copy:hover { background: #084ab0; }
+  .copy.ok { background: #1e8a3a; }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid #eee; font-size: 0.95rem; color: #444; }
+  .pill { display: inline-block; background: #eef3ff; color: #0a58ca; padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.75rem; margin-right: 0.4rem; }
+</style>
+</head>
+<body>
+<h1>Schema.org LocalBusiness JSON-LD templates for dog trainers</h1>
+<p>Paste-ready structured data for UK dog trainers and behaviourists. Drop any of these into the <code>&lt;head&gt;</code> of your site inside a <code>&lt;script type="application/ld+json"&gt;</code> tag, replace the placeholder values, and test in <a href="https://search.google.com/test/rich-results">Google's Rich Results Test</a>.</p>
+<p>Originally built for and maintained by <a href="https://www.looseleadclub.com">Loose Lead Club</a>, the UK's specialist reactive dog training and behaviour service. Full source on <a href="https://github.com/Paul-max-del/schema-org-localbusiness-dog-trainer">GitHub</a> under MIT.</p>
+
+<h2>Why structured data matters for dog trainers</h2>
+<p>Local dog training is competitive. Without LocalBusiness schema, Google has to guess what you do, where, and for whom. With it you get a proper knowledge panel, star ratings in search results (via <code>AggregateRating</code>), FAQ rich results (via <code>FAQPage</code>), better local pack ranking signals and cleaner near-me matching. The team behind this repo uses these exact patterns on every page of <a href="https://www.looseleadclub.com">looseleadclub.com</a>, including <a href="https://www.looseleadclub.com/reactive-dog-training-near-me">the reactive dog training page</a> and <a href="https://www.looseleadclub.com/residential">the residential programme page</a>.</p>
+
+<h2>Templates</h2>
+
+<div class="template" id="local-business">
+  <header>
+    <div><span class="pill">LocalBusiness</span> <strong>local-business.json</strong> <small>core business profile, address, hours, geo, social links</small></div>
+    <button class="copy" data-target="t1">Copy</button>
+  </header>
+  <pre id="t1"></pre>
+</div>
+
+<div class="template" id="service-area">
+  <header>
+    <div><span class="pill">Service</span> <strong>service-area.json</strong> <small>Service with areaServed for multi-region trainers</small></div>
+    <button class="copy" data-target="t2">Copy</button>
+  </header>
+  <pre id="t2"></pre>
+</div>
+
+<div class="template" id="faq">
+  <header>
+    <div><span class="pill">FAQPage</span> <strong>faq.json</strong> <small>FAQ schema for reactive dog training questions</small></div>
+    <button class="copy" data-target="t3">Copy</button>
+  </header>
+  <pre id="t3"></pre>
+</div>
+
+<div class="template" id="aggregate-rating">
+  <header>
+    <div><span class="pill">AggregateRating</span> <strong>aggregate-rating.json</strong> <small>review stars in search results</small></div>
+    <button class="copy" data-target="t4">Copy</button>
+  </header>
+  <pre id="t4"></pre>
+</div>
+
+<div class="template" id="breadcrumb">
+  <header>
+    <div><span class="pill">BreadcrumbList</span> <strong>breadcrumb.json</strong> <small>service-page breadcrumbs</small></div>
+    <button class="copy" data-target="t5">Copy</button>
+  </header>
+  <pre id="t5"></pre>
+</div>
+
+<div class="template" id="article">
+  <header>
+    <div><span class="pill">Article</span> <strong>article.json</strong> <small>trainer blog posts</small></div>
+    <button class="copy" data-target="t6">Copy</button>
+  </header>
+  <pre id="t6"></pre>
+</div>
+
+<h2>Common mistakes to avoid</h2>
+<ul>
+  <li><strong>Don't lie about your address.</strong> If you don't have a physical premises, use <code>Organization</code> with <code>areaServed</code>, not <code>LocalBusiness</code> with a fake address.</li>
+  <li><strong>Don't fake reviews.</strong> Use <code>aggregateRating</code> only if you have a real, verifiable review source on the page.</li>
+  <li><strong>Don't stuff <code>areaServed</code> with 200 towns.</strong> Use the parent region rather than 50 individual postcodes.</li>
+  <li><strong>Match your NAP</strong> (name, address, phone) across Google Business Profile, website, and schema. Inconsistency hurts local ranking.</li>
+</ul>
+
+<h2>About the team</h2>
+<p><a href="https://www.looseleadclub.com">Loose Lead Club</a> rehabilitates reactive and difficult dogs through structured programmes. If you're an owner reading this, head over to the <a href="https://www.looseleadclub.com/fit-check">fit-check questionnaire</a> to see which programme suits your dog. Useful reading:</p>
+<ul>
+  <li><a href="https://www.looseleadclub.com/articles/is-my-dog-reactive-or-aggressive">Is my dog reactive or aggressive?</a></li>
+  <li><a href="https://www.looseleadclub.com/articles/my-dog-reacts-to-other-dogs-on-walks">My dog reacts to other dogs on walks</a></li>
+  <li><a href="https://www.looseleadclub.com/articles/what-to-expect-residential-dog-training">What to expect from residential dog training</a></li>
+  <li><a href="https://www.looseleadclub.com/articles/force-free-vs-balanced-training">Force-free vs balanced training</a></li>
+  <li><a href="https://www.looseleadclub.com/articles/best-areas-london-reactive-dog-trainer">Best areas in London for a reactive dog trainer</a></li>
+</ul>
+
+<h2>Sister tools</h2>
+<ul>
+  <li><a href="https://github.com/Paul-max-del/dog-training-faq-schema-generator">Dog training FAQ schema generator</a> (<a href="https://paul-max-del.github.io/dog-training-faq-schema-generator/">live demo</a>), an interactive FAQ JSON-LD generator.</li>
+  <li><a href="https://github.com/Paul-max-del/uk-dog-trainer-postcode-catchment">UK postcode catchment library</a> (<a href="https://paul-max-del.github.io/uk-dog-trainer-postcode-catchment/">live demo</a>), a postcode-to-catchment lookup library.</li>
+</ul>
+
+<footer>
+  <p>Open source under MIT. Built and maintained by <a href="https://www.looseleadclub.com">Loose Lead Club</a>. Source on <a href="https://github.com/Paul-max-del/schema-org-localbusiness-dog-trainer">GitHub</a>.</p>
+</footer>
+
+<script>
+const files = [
+  ["t1", "local-business.json"],
+  ["t2", "service-area.json"],
+  ["t3", "faq.json"],
+  ["t4", "aggregate-rating.json"],
+  ["t5", "breadcrumb.json"],
+  ["t6", "article.json"]
+];
+
+files.forEach(([id, path]) => {
+  fetch(path).then(r => r.text()).then(t => {
+    document.getElementById(id).textContent = t.trim();
+  }).catch(() => {
+    document.getElementById(id).textContent = "Failed to load " + path;
+  });
+});
+
+document.querySelectorAll(".copy").forEach(btn => {
+  btn.addEventListener("click", async () => {
+    const text = document.getElementById(btn.dataset.target).textContent;
+    try {
+      await navigator.clipboard.writeText(text);
+      const orig = btn.textContent;
+      btn.textContent = "Copied";
+      btn.classList.add("ok");
+      setTimeout(() => { btn.textContent = orig; btn.classList.remove("ok"); }, 1500);
+    } catch (e) {
+      btn.textContent = "Press Ctrl+C";
+    }
+  });
+});
+</script>
+</body>
+</html>
